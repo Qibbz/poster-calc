@@ -1,0 +1,474 @@
+{
+  "tariffs": [
+    {
+      "id": "starter",
+      "name_ua": "Starter",
+      "name_ru": "Starter",
+      "prices": {
+        "UA": 600,
+        "CIS": 16,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 9600,
+        "PL": 0
+      },
+      "yearlyPrices": {
+        "UA": 500,
+        "CIS": 12,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 7200,
+        "PL": 0
+      }
+    },
+    {
+      "id": "mini",
+      "name_ua": "Mini",
+      "name_ru": "Mini",
+      "prices": {
+        "UA": 1200,
+        "CIS": 29,
+        "Euro": 29,
+        "World": 29,
+        "KZ": 17400,
+        "PL": 119
+      },
+      "yearlyPrices": {
+        "UA": 1080,
+        "CIS": 24,
+        "Euro": 24,
+        "World": 24,
+        "KZ": 14400,
+        "PL": 107
+      }
+    },
+    {
+      "id": "business",
+      "name_ua": "Business",
+      "name_ru": "Business",
+      "prices": {
+        "UA": 1700,
+        "CIS": 39,
+        "Euro": 49,
+        "World": 49,
+        "KZ": 23400,
+        "PL": 201
+      },
+      "yearlyPrices": {
+        "UA": 1530,
+        "CIS": 34,
+        "Euro": 44,
+        "World": 44,
+        "KZ": 20400,
+        "PL": 181
+      }
+    },
+    {
+      "id": "pro",
+      "name_ua": "Pro",
+      "name_ru": "Pro",
+      "prices": {
+        "UA": 2400,
+        "CIS": 59,
+        "Euro": 69,
+        "World": 69,
+        "KZ": 35400,
+        "PL": 283
+      },
+      "yearlyPrices": {
+        "UA": 2160,
+        "CIS": 54,
+        "Euro": 64,
+        "World": 64,
+        "KZ": 32400,
+        "PL": 255
+      }
+    },
+    {
+      "id": "enterprise",
+      "name_ua": "Enterprise",
+      "name_ru": "Enterprise",
+      "prices": {
+        "UA": 3160,
+        "CIS": 79,
+        "Euro": 89,
+        "World": 89,
+        "KZ": 50600,
+        "PL": 0
+      },
+      "yearlyPrices": {
+        "UA": 0,
+        "CIS": 0,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 0,
+        "PL": 0
+      }
+    }
+  ],
+  "addons": [
+    {
+      "id": "addon_terminal",
+      "name_ua": "Додатковий термінал",
+      "name_ru": "Дополнительная касса",
+      "prices": {
+        "UA": 760,
+        "CIS": 19,
+        "Euro": 19,
+        "World": 19,
+        "KZ": 11400,
+        "PL": 78
+      },
+      "type": "quantity"
+    },
+    {
+      "id": "addon_mobile",
+      "name_ua": "Mobile POS",
+      "name_ru": "Mobile POS",
+      "prices": {
+        "UA": 360,
+        "CIS": 9,
+        "Euro": 9,
+        "World": 9,
+        "KZ": 5400,
+        "PL": 37
+      },
+      "type": "quantity"
+    },
+    {
+      "id": "addon_site",
+      "name_ua": "Poster Site",
+      "name_ru": "Poster Site",
+      "prices": {
+        "UA": 760,
+        "CIS": 19,
+        "Euro": 19,
+        "World": 19,
+        "KZ": 11400,
+        "PL": 78
+      },
+      "type": "boolean"
+    },
+    {
+      "id": "addon_qr",
+      "name_ua": "Poster QR",
+      "name_ru": "Poster QR",
+      "prices": {
+        "UA": 280,
+        "CIS": 7,
+        "Euro": 7,
+        "World": 7,
+        "KZ": 4200,
+        "PL": 29
+      },
+      "type": "boolean"
+    },
+    {
+      "id": "addon_ai",
+      "name_ua": "Postie AI",
+      "name_ru": "Postie AI",
+      "prices": {
+        "UA": 400,
+        "CIS": 10,
+        "Euro": 10,
+        "World": 10,
+        "KZ": 6000,
+        "PL": 40
+      },
+      "type": "boolean"
+    },
+    {
+      "id": "addon_kk",
+      "name_ua": "Kitchen Kit",
+      "name_ru": "Kitchen Kit",
+      "prices": {
+        "UA": 280,
+        "CIS": 7,
+        "Euro": 7,
+        "World": 7,
+        "KZ": 4200,
+        "PL": 29
+      },
+      "type": "quantity"
+    },
+    {
+      "id": "addon_pnl",
+      "name_ua": "P&L",
+      "name_ru": "P&L",
+      "prices": {
+        "UA": 400,
+        "CIS": 10,
+        "Euro": 10,
+        "World": 10,
+        "KZ": 6000,
+        "PL": 42
+      },
+      "type": "pl-report"
+    },
+    {
+      "id": "addon_prro",
+      "name_ua": "Програмний РРО (ПРРО)",
+      "name_ru": "Програмный РРО (ПРРО)",
+      "prices": {
+        "UA": 200,
+        "CIS": 0,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 0,
+        "PL": 0
+      },
+      "type": "quantity"
+    },
+    {
+      "id": "addon_cour",
+      "name_ua": "Poster Курʼєр",
+      "name_ru": "Poster Курьер",
+      "prices": {
+        "UA": 200,
+        "CIS": 5,
+        "Euro": 5,
+        "World": 5,
+        "KZ": 3000,
+        "PL": 20
+      },
+      "type": "quantity"
+    }
+  ],
+  "extras": [
+    {
+      "id": "quick_start",
+      "name_ua": "Послуга “Швидкий старт”",
+      "name_ru": "Услуга \"Быстрый старт\"",
+      "prices": {
+        "UA": 2000,
+        "CIS": 0,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 0,
+        "PL": 0
+      }
+    },
+    {
+      "id": "premium_support",
+      "name_ua": "Premium підтримка",
+      "name_ru": "Premium поддержка",
+      "prices": {
+        "UA": 1200,
+        "CIS": 0,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 0,
+        "PL": 0
+      }
+    },
+    {
+      "id": "premium_impl",
+      "name_ua": "Premium впровадження та підтримка",
+      "name_ru": "Premium внедрение и поддержка",
+      "prices": {
+        "UA": 2600,
+        "CIS": 0,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 0,
+        "PL": 0
+      }
+    },
+    {
+      "id": "boss",
+      "name_ua": "Застосунок Poster Boss",
+      "name_ru": "Приложение Poster Boss",
+      "prices": {
+        "UA": 0,
+        "CIS": 0,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 0,
+        "PL": 0
+      }
+    },
+    {
+      "id": "24_7",
+      "name_ua": "Тех.підтримка 24/7",
+      "name_ru": "Тех.поддержка 24/7",
+      "prices": {
+        "UA": 0,
+        "CIS": 0,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 0,
+        "PL": 0
+      }
+    },
+    {
+      "id": "edu_base",
+      "name_ua": "Навчальні матеріали",
+      "name_ru": "Обучающие материалы",
+      "prices": {
+        "UA": 0,
+        "CIS": 0,
+        "Euro": 0,
+        "World": 0,
+        "KZ": 0,
+        "PL": 0
+      }
+    }
+  ],
+  "equipment": [
+    {
+      "id": "eq_starter",
+      "name_ua": "Комплект обладнання Starter",
+      "price": 14650
+    },
+    {
+      "id": "eq_lite",
+      "name_ua": "Комплект обладнання Lite",
+      "price": 15895
+    },
+    {
+      "id": "eq_lite_b",
+      "name_ua": "Комплект Lite з Bluetooth принтером",
+      "price": 16895
+    },
+    {
+      "id": "eq_pro",
+      "name_ua": "Комплект обладнання Pro",
+      "price": 26000
+    },
+    {
+      "id": "eq_shop",
+      "name_ua": "Комплект POS обладнання для магазинів",
+      "price": 33500
+    },
+    {
+      "id": "q260",
+      "name_ua": "Принтер Xprinter Q260III",
+      "price": 3750
+    },
+    {
+      "id": "xp_t890",
+      "name_ua": "Принтер Xprinter XP-Т890H",
+      "price": 4995
+    },
+    {
+      "id": "xp_t890_b",
+      "name_ua": "Принтер Xprinter XP-Т890H Bluetooth",
+      "price": 5995
+    },
+    {
+      "id": "sam_4s",
+      "name_ua": "Принтер Sam4S",
+      "price": 7400
+    },
+    {
+      "id": "stand_w",
+      "name_ua": "Універсальна деревʼяна підставка",
+      "price": 950
+    },
+    {
+      "id": "stand_m",
+      "name_ua": "Універсальна металева підставка",
+      "price": 950
+    },
+    {
+      "id": "cash_m",
+      "name_ua": "Грошова скринька середня",
+      "price": 2100
+    },
+    {
+      "id": "cahs_l",
+      "name_ua": "Грошова скринька велика",
+      "price": 2400
+    },
+    {
+      "id": "pos_w",
+      "name_ua": "Сенсорний Windows POS-термінал",
+      "price": 22990
+    },
+    {
+      "id": "pos_a",
+      "name_ua": "POS-термінал Android SUNMI D3 PRO",
+      "price": 22990
+    },
+    {
+      "id": "ipad",
+      "name_ua": "Планшет iPad 10.2″ 64 GB 2021",
+      "price": 17000
+    },
+    {
+      "id": "samstab",
+      "name_ua": "Планшет Samsung Galaxy Tab A9 Plus Wi-Fi 4/64GB",
+      "price": 9800
+    },
+    {
+      "id": "rout_asus",
+      "name_ua": "Роутер ASUS RT-AX1800U",
+      "price": 3200
+    },
+    {
+      "id": "scan_ezpos_s2",
+      "name_ua": "Cканер штрих-кодів EZPOS S2",
+      "price": 3100
+    },
+    {
+      "id": "stand_scan",
+      "name_ua": "Стійка (підставка) універсальна для сканерів штрихкодів",
+      "price": 400
+    },
+    {
+      "id": "bta_60",
+      "name_ua": "Ваги ВІС Промприлад BTA-60/15-5D-AC",
+      "price": 6590
+    },
+    {
+      "id": "ring_k",
+      "name_ua": "Дзвінок кухонний універсальний",
+      "price": 790
+    },
+    {
+      "id": "roz_3_5",
+      "name_ua": "Мережевий фільтр SPM5 3 метри 5 розеток",
+      "price": 350
+    },
+    {
+      "id": "pap_3",
+      "name_ua": "Папір для чеків 3 шт.",
+      "price": 350
+    },
+    {
+      "id": "pap_8",
+      "name_ua": "Папір для чеків 8 шт.",
+      "price": 900
+    },
+    {
+      "id": "pap_pos_3",
+      "name_ua": "Папір для чеків з логотипом Poster 3 шт.",
+      "price": 300
+    },
+    {
+      "id": "pap_pos_6",
+      "name_ua": "Папір для чеків з логотипом Poster 6 шт.",
+      "price": 580
+    },
+    {
+      "id": "lan_1",
+      "name_ua": "Патч-корд 1м Cablexpert Cat. 5e UTP 50u",
+      "price": 150
+    },
+    {
+      "id": "lan_3",
+      "name_ua": "Патч-корд 3м Cablexpert Cat. 5e UTP 50u",
+      "price": 200
+    },
+    {
+      "id": "lan_5",
+      "name_ua": "Патч-корд 5м Cablexpert Cat. 5e UTP 50u",
+      "price": 250
+    },
+    {
+      "id": "lan_7",
+      "name_ua": "Патч-корд 7.5м Cablexpert Cat. 5e UTP 50u",
+      "price": 300
+    }
+  ]
+}
