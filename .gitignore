@@ -30,4 +30,4 @@ Thumbs.db
 .vercel
 
 # Data files (optional)
-*.xlsx
+# *.xlsx
