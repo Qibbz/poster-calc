@@ -39,7 +39,7 @@
         "Euro": 24,
         "World": 24,
         "KZ": 14400,
-        "PL": 107
+        "PL": 0
       }
     },
     {
@@ -60,7 +60,7 @@
         "Euro": 44,
         "World": 44,
         "KZ": 20400,
-        "PL": 181
+        "PL": 0
       }
     },
     {
@@ -81,7 +81,7 @@
         "Euro": 64,
         "World": 64,
         "KZ": 32400,
-        "PL": 255
+        "PL": 0
       }
     },
     {
@@ -316,9 +316,19 @@
   ],
   "equipment": [
     {
-      "id": "eq_starter",
-      "name_ua": "Комплект обладнання Starter",
-      "price": 14650
+      "id": "eq_togo1",
+      "name_ua": "Комплект для точки to-go: планшет, принтер",
+      "price": 12800
+    },
+    {
+      "id": "eq_togo2",
+      "name_ua": "Комплект для точки to-go: планшет, принтер, підставка",
+      "price": 13500
+    },
+    {
+      "id": "eq_nowifi",
+      "name_ua": "Комплект для точки без інтернету (з SIM-картою)",
+      "price": 16600
     },
     {
       "id": "eq_lite",
@@ -326,17 +336,17 @@
       "price": 15895
     },
     {
-      "id": "eq_lite_b",
-      "name_ua": "Комплект Lite з Bluetooth принтером",
-      "price": 16895
-    },
-    {
       "id": "eq_pro",
       "name_ua": "Комплект обладнання Pro",
-      "price": 26000
+      "price": 25500
     },
     {
-      "id": "eq_shop",
+      "id": "eq_shops",
+      "name_ua": "Комплект для магазину з планшетом та вагами",
+      "price": 23900
+    },
+    {
+      "id": "eq_shopb",
       "name_ua": "Комплект POS обладнання для магазинів",
       "price": 33500
     },
@@ -396,9 +406,14 @@
       "price": 17000
     },
     {
-      "id": "samstab",
+      "id": "taba9",
       "name_ua": "Планшет Samsung Galaxy Tab A9 Plus Wi-Fi 4/64GB",
       "price": 9800
+    },
+    {
+      "id": "taba11",
+      "name_ua": "Планшет Samsung Galaxy Tab A11+ 6/128GB Gray (WiFi)",
+      "price": 10200
     },
     {
       "id": "rout_asus",
@@ -407,7 +422,7 @@
     },
     {
       "id": "scan_ezpos_s2",
-      "name_ua": "Cканер штрих-кодів EZPOS S2",
+      "name_ua": "Cканер штрих-кодів",
       "price": 3100
     },
     {
@@ -441,6 +456,11 @@
       "price": 900
     },
     {
+      "id": "pap_20",
+      "name_ua": "Папір для чеків 20 шт.",
+      "price": 2100
+    },
+    {
       "id": "pap_pos_3",
       "name_ua": "Папір для чеків з логотипом Poster 3 шт.",
       "price": 300
@@ -458,17 +478,32 @@
     {
       "id": "lan_3",
       "name_ua": "Патч-корд 3м Cablexpert Cat. 5e UTP 50u",
-      "price": 200
+      "price": 300
     },
     {
       "id": "lan_5",
       "name_ua": "Патч-корд 5м Cablexpert Cat. 5e UTP 50u",
-      "price": 250
+      "price": 400
     },
     {
       "id": "lan_7",
-      "name_ua": "Патч-корд 7.5м Cablexpert Cat. 5e UTP 50u",
-      "price": 300
+      "name_ua": "Патч-корд 7м Cablexpert Cat. 5e UTP 50u",
+      "price": 500
+    },
+    {
+      "id": "lan_10",
+      "name_ua": "Патч-корд 10м Cablexpert Cat. 5e UTP 50u",
+      "price": 600
+    },
+    {
+      "id": "lan_15",
+      "name_ua": "Патч-корд 15м Cablexpert Cat. 5e UTP 50u",
+      "price": 800
+    },
+    {
+      "id": "lan_20",
+      "name_ua": "Патч-корд 20м Cablexpert Cat. 5e UTP 50u",
+      "price": 1000
     }
   ]
 }
